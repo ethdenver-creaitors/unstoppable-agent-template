@@ -1,0 +1,20 @@
+[project]
+name = "unstoppable-agent-template"
+version = "0.1.0"
+description = "Template to create an unstoppable AI Agent powered by AgentKit, Aleph Cloud and LibertAI"
+authors = []
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = ["libertai-unstoppable-denver-agents==0.0.3"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.7"
+mypy = "^1.15.0"
+
+[tool.poetry]
+package-mode = false
