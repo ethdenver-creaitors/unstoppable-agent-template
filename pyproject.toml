@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "Template to create an unstoppable AI Agent powered by AgentKit, Aleph Cloud and LibertAI"
 authors = []
 readme = "README.md"
-requires-python = ">=3.10,<4"
-dependencies = ["libertai-unstoppable-denver-agents==0.0.3"]
+requires-python = ">=3.10,<3.13"
+dependencies = ["libertai-unstoppable-denver-agents==0.0.4"]
 
 
 [build-system]

@@ -1600,7 +1600,7 @@ description = "Lightweight in-process concurrent programming"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "(python_version == \"3.10\" or python_version == \"3.11\" or python_version >= \"3.12\") and python_version < \"3.14\" and (platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"win32\" or platform_machine == \"WIN32\")"
+markers = "(python_version == \"3.10\" or python_version == \"3.11\" or python_version >= \"3.12\") and (platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"win32\" or platform_machine == \"WIN32\")"
 files = [
     {file = "greenlet-3.1.1-cp310-cp310-macosx_11_0_universal2.whl", hash = "sha256:0bbae94a29c9e5c7e4a2b7f0aae5c17e8e90acbfd3bf6270eeba60c39fce3563"},
     {file = "greenlet-3.1.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0fde093fb93f35ca72a556cf72c92ea3ebfda3d79fc35bb19fbe685853869a83"},
@@ -2058,15 +2058,15 @@ langchain = ["langchain-community (>=0.3.9,<0.4.0)"]
 
 [[package]]
 name = "libertai-unstoppable-denver-agents"
-version = "0.0.3"
+version = "0.0.4"
 description = "Wrapper of LibertAI's AI Agents framework to add autonomous behavior (pay for their own computing)"
 optional = false
-python-versions = "<4.0,>=3.10"
+python-versions = "<3.13,>=3.10"
 groups = ["main"]
 markers = "python_version == \"3.10\" or python_version == \"3.11\" or python_version >= \"3.12\""
 files = [
-    {file = "libertai_unstoppable_denver_agents-0.0.3-py3-none-any.whl", hash = "sha256:8c560845aa7858cbdd474be680f04248da1f95d9efe210d0e1d40b756d5d490b"},
-    {file = "libertai_unstoppable_denver_agents-0.0.3.tar.gz", hash = "sha256:429f27e530d1e54899ba09346e980fc271e6701635292c2cd9426bfbbbcc1ddf"},
+    {file = "libertai_unstoppable_denver_agents-0.0.4-py3-none-any.whl", hash = "sha256:dec862ed19f7335ea8c5ffb5a644a9eee810b51b1014cb8c4958dafb83c03781"},
+    {file = "libertai_unstoppable_denver_agents-0.0.4.tar.gz", hash = "sha256:168ce09f0787052d7757b769283c1bcd0ea9427cd255c4aaa67d0b03d7ff89a1"},
 ]
 
 [package.dependencies]
@@ -4447,5 +4447,5 @@ cffi = ["cffi (>=1.11)"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.10,<4"
-content-hash = "4589e2ab161e755ea33664ad7e1f3ef54b292167541d063b7141c825254058af"
+python-versions = ">=3.10,<3.13"
+content-hash = "fda4c1e7f488b20ebe8629d48ded67d5e6ee9fa172c2c5fbfcb04b3248b27ef6"
