@@ -2058,15 +2058,15 @@ langchain = ["langchain-community (>=0.3.9,<0.4.0)"]
 
 [[package]]
 name = "libertai-unstoppable-denver-agents"
-version = "0.0.4"
+version = "0.0.5"
 description = "Wrapper of LibertAI's AI Agents framework to add autonomous behavior (pay for their own computing)"
 optional = false
 python-versions = "<3.13,>=3.10"
 groups = ["main"]
 markers = "python_version == \"3.10\" or python_version == \"3.11\" or python_version >= \"3.12\""
 files = [
-    {file = "libertai_unstoppable_denver_agents-0.0.4-py3-none-any.whl", hash = "sha256:dec862ed19f7335ea8c5ffb5a644a9eee810b51b1014cb8c4958dafb83c03781"},
-    {file = "libertai_unstoppable_denver_agents-0.0.4.tar.gz", hash = "sha256:168ce09f0787052d7757b769283c1bcd0ea9427cd255c4aaa67d0b03d7ff89a1"},
+    {file = "libertai_unstoppable_denver_agents-0.0.5-py3-none-any.whl", hash = "sha256:5ba3e37ba78e9f594645cd4b87b7b357d1ef03aae0ac6134088304fa4db15406"},
+    {file = "libertai_unstoppable_denver_agents-0.0.5.tar.gz", hash = "sha256:016f8240eed0d2e740351f4fddafc61ab53375e9fb28a53838697a28b6147fdf"},
 ]
 
 [package.dependencies]
@@ -4448,4 +4448,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.13"
-content-hash = "fda4c1e7f488b20ebe8629d48ded67d5e6ee9fa172c2c5fbfcb04b3248b27ef6"
+content-hash = "ad27b988ede3cc3883a3bece793cfbfabfc8b9dd62561a3faf28718c762e5273"
