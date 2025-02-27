@@ -5,7 +5,7 @@ description = "Template to create an unstoppable AI Agent powered by AgentKit, A
 authors = []
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
-dependencies = ["libertai-unstoppable-denver-agents==0.0.6"]
+dependencies = ["libertai-unstoppable-denver-agents==0.0.7"]
 
 
 [build-system]
