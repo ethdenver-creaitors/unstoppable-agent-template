@@ -1,7 +1,7 @@
 from libertai_agents.models import get_model
 
-from libertai_unstoppable_denver_agents.interfaces import AutonomousAgentConfig
-from libertai_unstoppable_denver_agents.main import AutonomousAgent
+from creaitors.interfaces import AutonomousAgentConfig
+from creaitors.main import AutonomousAgent
 
 autonomous_agent = AutonomousAgent(
     autonomous_config=AutonomousAgentConfig(
